@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    min-width: 600px;
+    max-width: 1000px;
+    background-color: #bdbdfa;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left-side {
+    flex: 1;
+    padding: 10px;
+    border-right: 2px solid #1e1e2f;
+    min-width: 200px;
+}
+
+.right-side {
+    flex: 2;
+    padding: 10px;
+    min-width: 300px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #1e1e2f;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #1e1e2f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#profilepic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th, .table td {
+    border: 1px solid #1e1e2f;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    color: #f4f4f4;
+    background-color: #1e1e2f;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <div class="content">
+            <div class="left-side">
+
+                <img src="profiflepic.jpeg" id="profilepic">
+                    <h2>Amna Shah</h2>
+
+                <section class="contact">
+                    <h2>Contact</h2>
+                    <p><strong>Address</strong> Lahore</p>
+                    <p><strong>Phone No</strong> +92 318 4293827</p>
+                    <p><strong>Email</strong> <a href="amnashah4221@gmail.com">amnashah4221@gmail.com</a></p>
+                    <p><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/amna-shah-642891218/">  linkedin</a></p>
+                    <p><strong>Github</strong><a href="https://github.com/amnashah4221">    github</a></p>
+                </section>
+
+                <section class="Certificates">
+                    <h2>Certificates</h2>
+                    <ul>
+                        <li>Introduction to Front-End Developnent - Coursera</li>
+                        <li>UI/UX - Udemy</li>
+                        <li>MySql - Udemy</li>
+                        <li>Introduction to Databases - Coursera</li>
+                        <li>Computer Networks - Cisco</li>
+                        <li>Introduction to AI - HP</li>
+                        <li>Machine Learning - Samz Tech</li>
+                        <li>Graphic Design - Hadi-E-Learning</li>
+                    </ul>
+                </section>
+
+                <section class="Activities">
+                    <h2>Activities</h2>
+                    <ul>
+                        <li>Semi-Finalist at Teknofest 2021 for 
+                            "Digital Multimeter Glasses" in Technology
+                            for Humanity.
+                        </li>
+                        <li>Runner-up in the Speech category at Awakener 
+                            National Competitions, 2019.
+                        </li>
+                    </ul>
+                </section>
+
+            </div>
+            <div class="right-side">
+                <section class="objective">
+                    <h2>Objective</h2>
+                    <p>Devoted professional with strong teamwork skills, a solid
+                        work ethic, and a talent for problem-solving and staying
+                        organized. Ready to take on any responsibility to help the
+                        team succeed. A reliable and committed team player who
+                        brings creativity and analytical thinking to every task.
+                    </p>
+                </section>
+
+                <section class="Experience">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>Front End Development Intern at <strong><em>Samz Tech </em></strong>(27th Feb, 2025 - Present)
+                        </li>
+
+                        <li>Front End Development Intern at <strong><em>Developer's Hub </em></strong> (3rd March, 2025 - Present)
+                        </li>
+                    </ul>
+                </section>
+
+
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <table class="table">
+                        <tr>
+                            <th>Skill</th>
+                            <th>Proficiency</th>
+                        </tr>
+        
+                        <tr>
+                            <td>HTML/CSS</td>
+                            <td>Intermediate</td>
+                        </tr>
+        
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Intermediate</td>
+                        </tr>
+        
+                        <tr>
+                            <td>React</td>
+                            <td>Intermediate</td>
+                        </tr>
+        
+                        <tr>
+                            <td>Database</td>
+                            <td>Advanced</td>
+                        </tr>
+        
+                        <tr>
+                            <td>C language</td>
+                            <td>Intermediate</td>
+                        </tr>
+
+                        <tr>
+                            <td>Python</td>
+                            <td>Intermediate</td>
+                        </tr>
+                    </table>
+                </section>
+        
+
+                <section class="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                       <li><strong>Subway Mobile App</strong>(React Native, Supabase)</li> 
+                       <li><strong>Art Gallery  Management System</strong>(RDBMS)</li> 
+                       <li><strong>Library Management System</strong>(C Language)</li> 
+                       <li><strong>Calculator</strong>(Html, Css, JavaScript)</li> 
+                    </ul>
+                </section>
+                
+                <section class="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
+                            <strong>2022-Present – Bachelor’s: Computer Science</strong>
+                            <p>COMSATS UNIVERSITY ISLAMABAD, LAHORE CAMPUS </p>
+                            <p>CGPA: 3.25</p>
+                        </li>
+
+                        <li>
+                            <strong>2020-2022 – FSc: ICS( Physics )</strong>
+                            <p>PAKTURK MAARIF INTERNATIONAL SCHOOLS AND COLLEGES</p>
+                            <p>Percentage: 90%</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="language">
+                    <h2>Language</h2>
+                    <ul>
+                        <li>English</li>
+                        <li>Urdu</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
